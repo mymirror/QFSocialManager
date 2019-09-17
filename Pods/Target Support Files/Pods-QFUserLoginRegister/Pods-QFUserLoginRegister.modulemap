@@ -1,0 +1,6 @@
+framework module Pods_QFUserLoginRegister {
+  umbrella header "Pods-QFUserLoginRegister-umbrella.h"
+
+  export *
+  module * { export * }
+}

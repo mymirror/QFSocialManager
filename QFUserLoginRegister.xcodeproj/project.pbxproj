@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		196C748478A2B4136F7C489B /* Pods_QFUserLoginRegister.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CB574D538BBA6803BF8ECC2 /* Pods_QFUserLoginRegister.framework */; };
+		DB5CC71E232F9D3400F07506 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5CC71D232F9D3400F07506 /* AppDelegate.m */; };
+		DB5CC721232F9D3400F07506 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5CC720232F9D3400F07506 /* ViewController.m */; };
+		DB5CC724232F9D3400F07506 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB5CC722232F9D3400F07506 /* Main.storyboard */; };
+		DB5CC726232F9D3500F07506 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB5CC725232F9D3500F07506 /* Assets.xcassets */; };
+		DB5CC729232F9D3500F07506 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB5CC727232F9D3500F07506 /* LaunchScreen.storyboard */; };
+		DB5CC72C232F9D3500F07506 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5CC72B232F9D3500F07506 /* main.m */; };
+		DB5CC736232F9F5800F07506 /* QFSocialManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5CC735232F9F5800F07506 /* QFSocialManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2CB574D538BBA6803BF8ECC2 /* Pods_QFUserLoginRegister.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QFUserLoginRegister.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C085B9D96C00A90ED14E87E /* Pods-QFUserLoginRegister.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QFUserLoginRegister.release.xcconfig"; path = "Target Support Files/Pods-QFUserLoginRegister/Pods-QFUserLoginRegister.release.xcconfig"; sourceTree = "<group>"; };
+		DB5CC719232F9D3400F07506 /* QFUserLoginRegister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QFUserLoginRegister.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB5CC71C232F9D3400F07506 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DB5CC71D232F9D3400F07506 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DB5CC71F232F9D3400F07506 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DB5CC720232F9D3400F07506 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DB5CC723232F9D3400F07506 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB5CC725232F9D3500F07506 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB5CC728232F9D3500F07506 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB5CC72A232F9D3500F07506 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB5CC72B232F9D3500F07506 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB5CC734232F9F5800F07506 /* QFSocialManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QFSocialManager.h; sourceTree = "<group>"; };
+		DB5CC735232F9F5800F07506 /* QFSocialManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QFSocialManager.m; sourceTree = "<group>"; };
+		E023609AAAA35EF3E7636C9A /* Pods-QFUserLoginRegister.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QFUserLoginRegister.debug.xcconfig"; path = "Target Support Files/Pods-QFUserLoginRegister/Pods-QFUserLoginRegister.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB5CC716232F9D3400F07506 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				196C748478A2B4136F7C489B /* Pods_QFUserLoginRegister.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A9FEBAF020AB058C4B10D14 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2CB574D538BBA6803BF8ECC2 /* Pods_QFUserLoginRegister.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB5CC710232F9D3400F07506 = {
+			isa = PBXGroup;
+			children = (
+				DB5CC71B232F9D3400F07506 /* QFUserLoginRegister */,
+				DB5CC71A232F9D3400F07506 /* Products */,
+				F60FBB5BEECA5DA65FBCB28C /* Pods */,
+				0A9FEBAF020AB058C4B10D14 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DB5CC71A232F9D3400F07506 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB5CC719232F9D3400F07506 /* QFUserLoginRegister.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB5CC71B232F9D3400F07506 /* QFUserLoginRegister */ = {
+			isa = PBXGroup;
+			children = (
+				DB5CC71C232F9D3400F07506 /* AppDelegate.h */,
+				DB5CC71D232F9D3400F07506 /* AppDelegate.m */,
+				DB5CC71F232F9D3400F07506 /* ViewController.h */,
+				DB5CC720232F9D3400F07506 /* ViewController.m */,
+				DB5CC732232F9F2300F07506 /* QFUserLogin */,
+				DB5CC733232F9F2300F07506 /* QFUserShare */,
+				DB5CC722232F9D3400F07506 /* Main.storyboard */,
+				DB5CC725232F9D3500F07506 /* Assets.xcassets */,
+				DB5CC727232F9D3500F07506 /* LaunchScreen.storyboard */,
+				DB5CC72A232F9D3500F07506 /* Info.plist */,
+				DB5CC72B232F9D3500F07506 /* main.m */,
+			);
+			path = QFUserLoginRegister;
+			sourceTree = "<group>";
+		};
+		DB5CC732232F9F2300F07506 /* QFUserLogin */ = {
+			isa = PBXGroup;
+			children = (
+				DB5CC734232F9F5800F07506 /* QFSocialManager.h */,
+				DB5CC735232F9F5800F07506 /* QFSocialManager.m */,
+			);
+			path = QFUserLogin;
+			sourceTree = "<group>";
+		};
+		DB5CC733232F9F2300F07506 /* QFUserShare */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = QFUserShare;
+			sourceTree = "<group>";
+		};
+		F60FBB5BEECA5DA65FBCB28C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E023609AAAA35EF3E7636C9A /* Pods-QFUserLoginRegister.debug.xcconfig */,
+				3C085B9D96C00A90ED14E87E /* Pods-QFUserLoginRegister.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB5CC718232F9D3400F07506 /* QFUserLoginRegister */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB5CC72F232F9D3500F07506 /* Build configuration list for PBXNativeTarget "QFUserLoginRegister" */;
+			buildPhases = (
+				C628586040C6C2EBC5884CDF /* [CP] Check Pods Manifest.lock */,
+				DB5CC715232F9D3400F07506 /* Sources */,
+				DB5CC716232F9D3400F07506 /* Frameworks */,
+				DB5CC717232F9D3400F07506 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QFUserLoginRegister;
+			productName = QFUserLoginRegister;
+			productReference = DB5CC719232F9D3400F07506 /* QFUserLoginRegister.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB5CC711232F9D3400F07506 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = llmmirror;
+				TargetAttributes = {
+					DB5CC718232F9D3400F07506 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = DB5CC714232F9D3400F07506 /* Build configuration list for PBXProject "QFUserLoginRegister" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB5CC710232F9D3400F07506;
+			productRefGroup = DB5CC71A232F9D3400F07506 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB5CC718232F9D3400F07506 /* QFUserLoginRegister */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB5CC717232F9D3400F07506 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB5CC729232F9D3500F07506 /* LaunchScreen.storyboard in Resources */,
+				DB5CC726232F9D3500F07506 /* Assets.xcassets in Resources */,
+				DB5CC724232F9D3400F07506 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C628586040C6C2EBC5884CDF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QFUserLoginRegister-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB5CC715232F9D3400F07506 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB5CC721232F9D3400F07506 /* ViewController.m in Sources */,
+				DB5CC736232F9F5800F07506 /* QFSocialManager.m in Sources */,
+				DB5CC72C232F9D3500F07506 /* main.m in Sources */,
+				DB5CC71E232F9D3400F07506 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DB5CC722232F9D3400F07506 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB5CC723232F9D3400F07506 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB5CC727232F9D3500F07506 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB5CC728232F9D3500F07506 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB5CC72D232F9D3500F07506 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DB5CC72E232F9D3500F07506 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB5CC730232F9D3500F07506 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E023609AAAA35EF3E7636C9A /* Pods-QFUserLoginRegister.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QFUserLoginRegister/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mirror.com.QFUserLoginRegister;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB5CC731232F9D3500F07506 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C085B9D96C00A90ED14E87E /* Pods-QFUserLoginRegister.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QFUserLoginRegister/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mirror.com.QFUserLoginRegister;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB5CC714232F9D3400F07506 /* Build configuration list for PBXProject "QFUserLoginRegister" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB5CC72D232F9D3500F07506 /* Debug */,
+				DB5CC72E232F9D3500F07506 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB5CC72F232F9D3500F07506 /* Build configuration list for PBXNativeTarget "QFUserLoginRegister" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB5CC730232F9D3500F07506 /* Debug */,
+				DB5CC731232F9D3500F07506 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB5CC711232F9D3400F07506 /* Project object */;
+}
